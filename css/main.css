@@ -21,6 +21,13 @@ h1,h2,h3,h4,h5,h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 800;
 }
+
+h1 {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 800;
+  color: 3AB7E6;
+}
+
 a {
   color: #008AFF;
 }

@@ -11,4 +11,4 @@ subtitle: We make street sweeping vehicles fully autonomous.
 We are busy building the first prototype - however we are always happy to get in touch. Please feel free to contact us at info [at] cleansquare [dot] de
 
 You can find us on:
-- [Angellist](https://angel.co/cleansquare)
+* [Angellist](https://angel.co/cleansquare)

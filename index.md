@@ -1,14 +1,14 @@
 ---
 layout: page
-title: CleanSquare
-subtitle: We make street sweeping vehicles fully autonomous.
+title: Enway
+subtitle:  We enable autonomous operations of service and specialty vehicles.
 ---
 ##  What we do ## 
 
-**CleanSquare Robotics** is an early stage technology startup specializing in navigation and operation technology for specialised utility vehicles. 
+**Enway** develops the technology platform that allows autonomous operation of service and specialty vehicles. From automatic street sweeping, winter service to greenery maintenance and many more use cases. We believe that automatic operations of service vehicles are just a leap away with countless benefits to be unlocked in the near future.
 
 ##  Contact us ## 
-We are always happy to get in touch. Please feel free to contact us at info [at] cleansquare [dot] de
+We are always happy to get in touch. Please feel free to contact us at info [at] enway [dot] ai
 
 You can find us on:
 

@@ -12,7 +12,8 @@ We are always happy to get in touch. Please feel free to contact us at info [at]
 
 You can find us on:
 
-* [Angellist](https://angel.co/cleansquare)
-* [Twitter](https://twitter.com/Clean_Square)
+* [Angellist](https://angel.co/enway)
+* [Twitter](https://twitter.com/EnwayTech)
+* [Instagram](https://instagram.com/EnwayTech)
 
  

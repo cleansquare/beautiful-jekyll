@@ -1,0 +1,218 @@
+*{
+  /*border: 1px solid green;*/
+}
+.navBg{
+  background-color: white;
+  box-shadow: 0 0px 10px rgba(0,0,0,.2);
+}
+.top-bar-left ul li a{
+  text-decoration: none;
+  font-size: 1.5rem;
+  line-height: 1.67;
+  text-align: center;
+  color: black;
+  transition: color 1s;
+}
+
+#img-b{
+  opacity: 1!important;
+}
+#img-w{
+  opacity: 0!important;
+}
+
+h4{
+  font-size: 1.75rem;
+  line-height: 1.25;
+  letter-spacing: 2px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+h5{
+  font-size: 1.25rem;
+  line-height: 1.67;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.team{
+  padding-top: 4rem;
+}
+
+.culture{
+  padding-top: 10rem;
+  margin-bottom: 3rem;
+  background-image: linear-gradient(80deg, #3cf596, #00e1e1);
+}
+
+.culture .wrapper{
+  padding-bottom: 3rem;
+  margin-bottom: 3rem;
+}
+
+.culture .wrapper h2{
+  color: #ffffff;
+  font-weight: 600;
+  letter-spacing: 0.0625rem;
+}
+
+.culture .wrapper p{
+  color: #ffffff;
+}
+
+
+
+.team .wrapper{
+  max-width: 1200px;
+  padding-bottom: 3rem;
+}
+
+.boxWrapper{
+  padding-bottom: 4rem;
+}
+.boxWrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.box{
+  width: 22rem;
+  height: 22rem;
+  margin: 1rem;
+	background-color: rgb(203, 203, 203);
+}
+.box{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.box:nth-child(0n+1){
+  background-image: url(../img/team/julian.jpg);
+}
+.box:nth-child(0n+2){
+  background-image: url(../img/team/bo.jpg);
+}
+.box:nth-child(0n+3){
+  background-image: url(../img/team/thanuja.jpg);
+}
+.box:nth-child(0n+4){
+  background-image: url(../img/team/jacob.jpg);
+}
+.box:nth-child(0n+5){
+  background-image: url(../img/team/daniel.jpg);
+}
+.box:nth-child(0n+6){
+  /*background-image: url(http://via.placeholder.com/400x400);*/
+}
+
+.boxtext{
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  position: absolute;
+  width: inherit;
+  height: inherit;
+	background-image: linear-gradient(57deg, rgb(60, 245, 150), rgb(0, 225, 225));
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.boxtextWrapper{
+  width: inherit;
+  height: auto;
+}
+.boxtext:hover{
+  opacity: 1;
+}
+#visible{
+  opacity: 1;
+}
+.WeAreHiring{
+  font-size: 4rem;
+font-weight: 600;
+line-height: 1.38;
+letter-spacing: 0.5px;
+text-align: center;
+color: rgb(255, 255, 255);
+}
+.flex{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+@media all and (max-Width: 767px) {
+  .flex{
+    flex-direction: column!important;
+  }
+}
+
+.SupportersFriends{
+  padding: 4rem 0;
+}.SupportersFriends h2{
+  padding: 1rem 0;
+}
+.SupportersFriendsLogo{
+  margin: 2rem;
+  width: 18rem;
+  height: 9,5rem;
+}
+.SupportersFriendsLogo img{
+  width: 18rem;
+  height: 9,5rem;
+  object-fit: contain;
+  object-position: center;
+}
+.orbit-container{
+  height: 50rem!important;
+}
+.orbit-slide{
+  width: inherit;
+  height: inherit;
+}
+.orbit-slide img{
+  width: 100vw;
+  height: inherit;
+  object-fit: cover;
+  object-position: center;
+}
+
+.orbit-previous, .orbit-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    padding: 1rem;
+    color: #fefefe;
+}
+.orbit-controls button{
+  z-index: 2;
+  cursor: pointer;
+  margin: 1rem;
+  width: 3rem;
+  height: 3rem;
+}
+.orbit-controls button img{
+  width: 3rem;
+  height: 3rem;
+  object-fit: contain;
+  object-position: center;
+}
+.orbit-bullets {
+    width: 100vw;
+    position: absolute;
+    bottom: 1rem;
+    text-align: center;
+}
+.orbit-bullets button{
+  cursor: pointer;
+  margin: 0 0.2rem;
+  background-color: white;
+}
+.orbit-bullets button:hover{
+  background-color: rgb(60, 245, 150);
+}
+.orbit-bullets button.is-active {
+  background-color: rgb(60, 245, 150);
+}

@@ -1,0 +1,320 @@
+/*############# HEAD ############*/
+
+.head{
+
+}
+
+.HeadFont{
+  height: 100vh;
+  width: 100vw;
+}
+.HeadFont .wrapper{
+  z-index: inherit;
+  height: 100vh;
+  position: relative;
+  top: 1.25rem;
+  left: 0;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-end;
+}
+.scroll{
+  z-index: inherit;
+
+  margin-top: 2.5rem;
+  display: flex;
+  align-items: center;
+}
+.scroll img{
+  z-index: inherit;
+  width: 4.6875rem;
+  height: 9rem;
+  display: inline-block;
+  box-shadow: 0 0 2.5rem 0 rgba(74, 74, 74, 0.25);
+}
+.scroll span{
+  display: inline-block;
+  font-size: 1.5rem;
+  margin-left: 2rem;
+  color: white;
+}
+.headVideo{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  /*height: 56.25rem;*/
+  height: 100vh;
+  object-fit: cover;
+  object-position: center;
+  z-index: -1;
+}
+
+/*############# HEAD ENDE ############*/
+
+
+/*############# Mission ############*/
+
+
+.Mission{
+  background-image: linear-gradient(78deg, #3cf596, #00e1e1 61%, #00e1e1 98%);
+}
+.Mission .wrapper{
+  padding-top: 12.5rem;
+  padding-bottom: 7.5rem;
+}
+.bg-1{
+  background-image: url(../img/enway_streetsweeper.jpg);
+}
+
+
+/*############# Mission ENDE ############*/
+
+
+
+/*############# Autonomous ############*/
+.Autonomous{
+  padding-bottom: 7.5rem;
+}
+.Autonomous p{
+  max-width: 51.25rem;
+}
+.Autonomous .wrapper{
+  padding-top: 7rem;
+  padding-bottom: 5.5rem;
+}
+.carouseltest{
+  display: flex;
+  flex-wrap: nowrap;
+  max-width: 75rem;
+  flex-direction: row;
+
+  background-color: white;
+  margin: auto;
+  height: 38rem;
+}
+@media all and (max-Width: 900px) {
+  .carouseltest{
+    flex-direction: column!important;
+  }
+  .carouseltest{
+    height: 75.75rem;
+  }
+  .carousel-img{
+    min-height: 38rem;
+  }
+}
+@media all and (max-Width: 600px) {
+  .carouseltest{
+    height: 80rem;
+  }
+}
+.orbit-container{
+  height: 32rem!important;
+}
+.orbit-wrapper:active{
+    outline: 1px solid rgba(0,0,0,0)!important;
+}
+.orbit-container{
+  outline: 1px dotted rgba(0,0,0,0)!important;
+}
+.carousel-img{
+  flex: 3;
+  /*min-width: 500px;*/
+  background-image: url(../img/enway_streetsweeper_2_plus.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+.orbit-bullets{
+    position: relative;
+    width: 100%;
+    height: 38rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: 1px dotted rgba(0,0,0,0)!important;
+
+}
+.orbit-bullets button{
+  cursor: pointer;
+  position: relative;
+  outline: 1px dotted rgba(0,0,0,0)!important;
+
+}
+.orbit-bullets button:nth-child(0n+1){
+  top: 12rem;
+  left: 0rem;
+}
+.orbit-bullets button:nth-child(0n+2){
+  top: 0rem;
+  left: -4.5rem;
+}
+.orbit-bullets button:nth-child(0n+3){
+  top: -14rem;
+  left: 4rem;
+}
+
+.orbit-bullets button{
+    width: 4.375rem!important;
+    height: 4.375rem!important;
+    margin: 0!important;
+    border-radius: 50%!important;
+    background-color: rgba(255, 255, 255, 0)!important;
+    background-image: url(../img/bullet-01.svg)!important;
+    background-size: contain!important;
+    background-repeat: no-repeat!important;
+    background-position: center!important;
+}
+.orbit-bullets button:hover{
+  background-color: rgba(255, 255, 255, 0)!important;
+  background-image: url(../img/bullet-02.svg)!important;
+}
+.orbit-bullets button.is-active {
+  background-color: rgba(255, 255, 255, 0)!important;
+  background-image: url(../img/bullet-03.svg)!important;
+}
+
+.carousel-text{
+  flex: 4;
+}
+
+.carousel-controls{
+  width: auto;
+  height: auto;
+  padding: 6.75rem 3.75rem 0.625rem 3.75rem;
+}
+.carousel-controls button{
+  cursor: pointer;
+}
+.carousel-controls img{
+  width: 3rem;
+  height: 2.5rem;
+}
+.orbit-next{
+  margin-left: 2rem;
+}
+
+.pSmall{
+  display: block;
+  font-size: 1.5rem;
+  line-height: 1.67;
+}
+
+.wasteListBlock{
+  margin-bottom: 2rem;
+}
+
+.wasteList{
+  font-size: 2rem;
+  line-height: 1.67;
+  margin-bottom: 1rem;
+}
+
+.hSmall{
+  display: block;
+  font-size: 2rem;
+  line-height: 1.25;
+  letter-spacing: 0.125rem;
+  margin-bottom: 1.75rem;
+}
+.textWrapper{
+  padding: 1.875rem 3.75rem 1.875rem 3.75rem;
+}
+
+/*############# Autonomous ENDE ############*/
+
+/*############# Automation ############*/
+
+
+.Automation .wrapper{
+  padding-top: 7rem;
+  padding-bottom: 5.5rem;
+}
+
+.bg-2{
+  background-image: url(../img/enway_wastetruck.jpg);
+}
+/*############# Automation ENDE ############*/
+
+/*############# Municipal############*/
+.Municipal{
+
+}
+.Municipal > .wrapper{
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+.MunicipalContact{
+  /*display: flex;
+  flex-wrap: wrap;*/
+  /*justify-content: space-around;*/
+  height: auto;
+  padding: 2.5rem 0;
+  background-image: linear-gradient(85deg, #3cf596, #00e1e1);
+}
+.MunicipalContactWrapper{
+  max-width: 68.75rem;
+  margin: 0 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+.MunicipalContactText{
+  margin-right: 1.875rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  height: auto;
+}
+.MunicipalContactText span{
+  margin: 0 1rem;
+  font-size: 2rem;
+  line-height: 1.41;
+  letter-spacing: 2px;
+  color: #ffffff;
+}
+.MunicipalContactBtn{
+  width: 20.625rem;
+  height: 5.5rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  background-color: white;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 3px 14px 3px rgba(0, 0, 0, 0.12), 0 8px 10px 1px rgba(0, 0, 0, 0.14);
+}
+.MunicipalContactBtn:hover{
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 3px 14px 3px rgba(0, 0, 0, 0.2), 0 8px 10px 1px rgba(0, 0, 0, 0.2);
+}
+.MunicipalContactBtn a{
+  width: 100%;
+  height: 100%;
+}
+.MunicipalContactBtn span{
+  font-size: 2rem;
+  line-height: 1.5;
+  color: #2a2c2b;
+}
+.MunicipalContactBtn img{
+  width: 2rem;
+  height: 2rem;
+  margin-left: 32px;
+}
+
+
+
+.bg-3{
+  background-image: url(../img/enway_technology.jpg);
+}
+/*############# Municipal ENDE ############*/
+
+
+/*############# Technology ############*/
+.Technology .wrapper{
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+/*############# Technology ENDE ############*/

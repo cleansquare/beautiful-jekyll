@@ -147,16 +147,16 @@
 
 }
 .orbit-bullets button:nth-child(0n+1){
-  top: -16rem;
-  left: 7rem;
+  top: -15.5rem;
+  left: 6.6rem;
 }
 .orbit-bullets button:nth-child(0n+2){
   top: 0rem;
   left: -4.5rem;
 }
 .orbit-bullets button:nth-child(0n+3){
-  top: 12rem;
-  left: 0rem;
+  top: 14rem;
+  left: -1.5rem;
 }
 
 .orbit-bullets button{

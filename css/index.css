@@ -318,3 +318,21 @@
   padding-bottom: 7rem;
 }
 /*############# Technology ENDE ############*/
+
+/*############# PublicSupport ############*/
+.PublicSupport .wrapper{
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.PublicSupport img{
+  float: right;
+  width: 70%;
+  height: 70%;
+}
+
+.PublicSupport span{
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+/*############# PublicSupport ENDE ############*/

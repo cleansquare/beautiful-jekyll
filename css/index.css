@@ -326,7 +326,8 @@
 }
 
 .PublicSupport img{
-  float: right;
+  float: center;
+  padding-left: 2rem;
   width: 70%;
   height: 70%;
 }

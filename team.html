@@ -14,6 +14,27 @@
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600" rel="stylesheet">
 
     <script type="text/javascript" src="js/javascript.js"></script>
+    <script>
+      var gaProperty = 'UA-104668157-1';
+      var disableStr = 'ga-disable-' + gaProperty;
+      if (document.cookie.indexOf(disableStr + '=true') > -1) {
+        window[disableStr] = true;
+      }
+      function gaOptout() {
+        document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+        window[disableStr] = true;
+      }
+    </script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-104668157-1', 'auto');
+      ga('set', 'anonymizeIp', true);
+      ga('send', 'pageview');
+    </script>
 
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
@@ -143,8 +164,8 @@
       <div class="box">
         <div class="boxtext">
           <div class="boxtextWrapper">
-            <h4>Jacob</h4>
-            <h5>Software Engineer</h5>
+            <h4>Alex</h4>
+            <h5>Principal Software Engineer</h5>
           </div>
         </div>
       </div>
@@ -153,6 +174,30 @@
           <div class="boxtextWrapper">
             <h4>Daniel</h4>
             <h5>Hardware and Electronics</h5>
+          </div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="boxtext">
+          <div class="boxtextWrapper">
+            <h4>Jacob</h4>
+            <h5>Software Engineer</h5>
+          </div>
+        </div>
+      </div>     
+      <div class="box">
+        <div class="boxtext">
+          <div class="boxtextWrapper">
+            <h4>Manasi</h4>
+            <h5>Software Engineer</h5>
+          </div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="boxtext">
+          <div class="boxtextWrapper">
+            <h4>Matthias</h4>
+            <h5>Software Engineer</h5>
           </div>
         </div>
       </div>

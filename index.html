@@ -14,10 +14,31 @@
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600" rel="stylesheet">
 
     <script type="text/javascript" src="js/javascript.js"></script>
+    <script>
+      var gaProperty = 'UA-104668157-1';
+      var disableStr = 'ga-disable-' + gaProperty;
+      if (document.cookie.indexOf(disableStr + '=true') > -1) {
+        window[disableStr] = true;
+      }
+      function gaOptout() {
+        document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+        window[disableStr] = true;
+      }
+    </script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-104668157-1', 'auto');
+      ga('set', 'anonymizeIp', true);
+      ga('send', 'pageview');
+    </script>
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
-    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/master.css">       
   </head>
   <body>
 
@@ -76,8 +97,9 @@
           </div>
         </div>
 
-        <video class="headVideo" autoplay loop muted playsinline poster="img/ENWAY-vid-start.png">
+        <video class="headVideo" width="100%" height="100vh" autoplay loop muted playsinline poster="img/ENWAY-vid-start.png">
           <source src="vid/ENWAY_video_header.mp4" type="video/mp4">
+          <img src="img/ENWAY-vid-start.png" alt="">
         </video>
 
       </section><!--ENDE Head-->
@@ -221,7 +243,15 @@
             </a>
           </div>
         </div>
-
+        <br />
+        <div class="HiringBtn">
+          <div class="joinNow center">
+            <a class="center" href="http://eepurl.com/cZ_se1">
+            <span>Get updates!</span>
+            <img src="img/arrow-side-b.svg" alt="">
+            </a>
+          </div>
+        </div>
       </section>
 
       <section id="PublicSupport" class="PublicSupport">

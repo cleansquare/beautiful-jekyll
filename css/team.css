@@ -96,12 +96,21 @@ h5{
   background-image: url(../img/team/thanuja.jpg);
 }
 .box:nth-child(0n+4){
-  background-image: url(../img/team/jacob.jpg);
+  background-image: url(../img/team/alex.jpg);
 }
 .box:nth-child(0n+5){
   background-image: url(../img/team/daniel.jpg);
 }
 .box:nth-child(0n+6){
+  background-image: url(../img/team/jacob.jpg);
+}
+.box:nth-child(0n+7){
+  background-image: url(../img/team/manasi.jpg);
+}
+.box:nth-child(0n+8){
+  background-image: url(../img/team/matthias.jpg);
+}
+.box:nth-child(0n+9){
   /*background-image: url(http://via.placeholder.com/400x400);*/
 }
 
